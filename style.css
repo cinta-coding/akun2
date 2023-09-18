@@ -1,0 +1,226 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* style */
+
+body {
+  font-family: "Signika Negative", sans-serif;
+  background-color: #253133;
+  background-image: url(img/biru.jpg);
+  background-size: cover;
+}
+.container {
+  width: 900px;
+  margin: auto;
+  background-color: white;
+}
+
+.header {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.header .judul a {
+  font-size: 50px;
+  color: #000000;
+}
+
+.header .judul a:hover {
+  color: #07d0ef;
+}
+
+.header ul li {
+  font-size: 15px;
+  margin-top: 40px;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #31acbe;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.header ul li a:hover {
+  color: #07d0ef;
+  background-color: black;
+}
+
+.hero {
+  height: 350px;
+  background-image: url(img/laptop.jpg);
+  background-size: cover;
+  background-position: 0 -68px;
+  border-top: 5px solid #31acbe;
+  border-bottom: 5px solid rgb(176, 122, 122);
+}
+
+.content {
+  padding: 20px;
+  font-family: arial;
+  font-weight: bold;
+}
+
+.content h2 {
+  font-size: 32px;
+  font-family: "Signika Negative", sans-serif;
+}
+
+.content .penulis {
+  font-size: 15px;
+  margin-top: 1px;
+  margin-bottom: 15px;
+}
+
+.content p {
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.content .penulis a {
+  color: #ff5900;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.copyright {
+  padding: 15px;
+  background-color: black;
+  color: rgb(175, 98, 98);
+  border: 3px solid #b65a5a;
+}
+
+.copyright h3 {
+  font-size: 16px;
+  font-variant: small-caps;
+  text-align: center;
+}
